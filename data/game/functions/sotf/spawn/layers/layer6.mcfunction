@@ -1,0 +1,9 @@
+#Y = 1
+execute at @e[tag=anchor] run setblock ~1 ~1 ~ glass_pane
+execute at @e[tag=anchor] run setblock ~1 ~1 ~1 glass_pane
+execute at @e[tag=anchor] run setblock ~ ~1 ~1 glass_pane
+execute at @e[tag=anchor] run setblock ~-1 ~1 ~1 glass_pane
+execute at @e[tag=anchor] run setblock ~-1 ~1 ~ glass_pane
+execute at @e[tag=anchor] run setblock ~-1 ~1 ~-1 glass_pane
+execute at @e[tag=anchor] run setblock ~ ~1 ~-1 glass_pane
+execute at @e[tag=anchor] run setblock ~1 ~1 ~-1 glass_pane
