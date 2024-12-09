@@ -1,0 +1,1 @@
+tellraw @a[tag=admin] "Master Pack Operational"
