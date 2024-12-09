@@ -1,5 +1,6 @@
 {
     "values": [
-        "timer:tick"
+        "timer:tick",
+        "lobby:tick"
     ]
 }

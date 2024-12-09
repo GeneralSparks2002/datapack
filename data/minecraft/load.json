@@ -1,5 +1,6 @@
 {
     "values": [
-        "timer:load"
+        "timer:load",
+        "master:load"
     ]
 }
