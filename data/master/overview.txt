@@ -1,0 +1,6 @@
+this is the "master control" section of the whole datapack
+its not as nesasary as it sounds if you know how to use 
+commands. this is more of an ease of use UI. this section
+of the datapack, as mentioned already, is a UI that allows you
+to set up the games with greater ease. i would not suggest messing
+with this datapack too much.

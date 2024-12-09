@@ -1,0 +1,6 @@
+this section of the datapack is to control the timer 
+boss bar that should show up at the top of your screen.
+this will also be referenced by the game section since 
+this does set the timing for the whole game. 
+
+DO NOT DELETE SINCE THIS IS NECASSARY PART OF THE PACK!!!

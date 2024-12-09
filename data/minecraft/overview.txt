@@ -1,0 +1,5 @@
+if you are new to datapacks it will just explain this vaugly.
+this is the section of the datapack that allows minecraft
+itself to reference the datapack and allows it to run.
+
+DO NOT TOUCH UNLESS YOU KNOW WHAT YOU ARE DOING!!!!

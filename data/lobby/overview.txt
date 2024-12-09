@@ -1,0 +1,8 @@
+this is the controlls for the lobby.
+if you are using the world that i chose for this game
+and wont a lobby i would HIGHLY suggest not changing
+this datapack, however if you are setting up your own lobby
+or just dont want one than feel free to go ahead and deleat
+this folder out of the datapack. it only purpose is for the
+lobby and isnt referenced anywhere else so the pack wont 
+break.
