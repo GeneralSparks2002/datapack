@@ -1,7 +1,7 @@
 {
     "values": [
-        "timer:load",
-        "master:load",
+        "timer:tick",
+        "lobby:tick",
         "game:main"
     ]
 }
