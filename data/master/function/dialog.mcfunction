@@ -7,4 +7,4 @@ execute run tellraw @p[tag=admin] {"text":"SOTF Diagnostic Menu","color":"gold",
 execute run tellraw @p[tag=admin] {"text":"[Lobby TP Switch]","color":"blue","clickEvent":{"action":"run_command","value":"/function tp:theway"}}
 execute run tellraw @p[tag=admin] {"text":"[SOTF Reset Options]","color":"green","clickEvent":{"action":"run_command","value":"/function master:sotfreference/resetfunctions"}}
 execute run tellraw @p[tag=admin] {"text":"[Give Bases]","color":"light_purple","clickEvent":{"action":"run_command","value":"/function game:givebases"}}
-execute run tellraw @p[tag=admin] {"text":"[Give Lobby Spawn]","color":"light_purple","clickEvent":{"action":"run_command","value":"/function master:sotf/spawn"}}
+execute run tellraw @p[tag=admin] {"text":"[Give Lobby Spawn]","color":"light_purple","clickEvent":{"action":"run_command","value":"/function game:spawn"}}
