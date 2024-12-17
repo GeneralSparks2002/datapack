@@ -18,8 +18,8 @@ execute at @e[tag=yellowanchor] run teleport @a[tag=yellow] ~ ~ ~
 clear @a
 advancement revoke @a[tag=!admin] everything
 
-give @p[tag=blue,limit=1] minecraft:item_frame{display:{Name:'{"text":"Blue Base","color":"dark_blue","italic":true}'},CustomModelData:1,EntityTag:{Silent:1b,Tags:["BlueBase","Base"],Item:{id:"minecraft:item_frame",Count:1b,tag:{CustomModelData:1}},Invulnerable:1b,Invisible:1b,Fixed:1b}} 1
-give @p[tag=brown,limit=1] minecraft:item_frame{display:{Name:'{"text":"Brown Base","color":"#964B00","italic":true}'},CustomModelData:2,EntityTag:{Silent:1b,Tags:["BrownBase","Base"],Item:{id:"minecraft:item_frame",Count:1b,tag:{CustomModelData:2}},Invulnerable:1b,Invisible:1b,Fixed:1b}} 1
+give @p[tag=blue,limit=1] item_frame{display:{Name:'{"text":"Blue Base","color":"dark_blue","italic":true}'},CustomModelData:1,EntityTag:{Silent:1b,Tags:["BlueBase","Base"],Item:{id:"minecraft:item_frame",Count:1b,tag:{CustomModelData:1}},Invulnerable:1b,Invisible:1b,Fixed:1b}} 1
+give @p[tag=brown,limit=1] item_frame{display:{Name:'{"text":"Brown Base","color":"#964B00","italic":true}'},CustomModelData:2,EntityTag:{Silent:1b,Tags:["BrownBase","Base"],Item:{id:"minecraft:item_frame",Count:1b,tag:{CustomModelData:2}},Invulnerable:1b,Invisible:1b,Fixed:1b}} 1
 give @p[tag=cyan,limit=1] minecraft:item_frame{display:{Name:'{"text":"Cyan Base","color":"dark_aqua","italic":true}'},CustomModelData:3,EntityTag:{Silent:1b,Tags:["CyanBase","Base"],Item:{id:"minecraft:item_frame",Count:1b,tag:{CustomModelData:3}},Invulnerable:1b,Invisible:1b,Fixed:1b}} 1
 give @p[tag=gray,limit=1] minecraft:item_frame{display:{Name:'{"text":"Gray Base","color":"dark_gray","italic":true}'},CustomModelData:4,EntityTag:{Silent:1b,Tags:["GrayBase","Base"],Item:{id:"minecraft:item_frame",Count:1b,tag:{CustomModelData:4}},Invulnerable:1b,Invisible:1b,Fixed:1b}} 1
 give @p[tag=lightblue,limit=1] minecraft:item_frame{display:{Name:'{"text":"Light Blue Base","color":"aqua","italic":true}'},CustomModelData:6,EntityTag:{Silent:1b,Tags:["LightBlueBase","Base"],Item:{id:"minecraft:item_frame",Count:1b,tag:{CustomModelData:6}},Invulnerable:1b,Invisible:1b,Fixed:1b}} 1
@@ -39,7 +39,7 @@ give @a stone_sword
 give @a stone_pickaxe
 give @a stone_shovel
 give @a cooked_beef 16
-give @a potion{Potion:"minecraft:long_invisibility"} 1
+execute run give @a potion{Potion:"minecraft:long_invisibility"} 1
 
 execute run recipe give @a crafting_table
 execute run recipe take @a crafting_table

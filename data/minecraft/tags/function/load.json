@@ -1,0 +1,7 @@
+{
+    "values": [
+        "timer:load",
+        "master:load",
+        "game:load"
+    ]
+}
