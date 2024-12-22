@@ -1,6 +1,6 @@
 kill @e[type=item,nbt={Item:{id:"minecraft:crafting_table"}},distance=0..2,sort=nearest,limit=1]
 
-execute unless score timer_grace variable matches ..0 run give @p[tag=limegreen,limit=1] minecraft:item_frame{display:{Name:'{"text":"Lime Green Base","color":"#39FF14","italic":true}'},CustomModelData:8,EntityTag:{Silent:1b,Tags:["LimeGreenBase","Base"],Item:{id:"minecraft:item_frame",Count:1b,tag:{CustomModelData:8}},Invulnerable:1b,Invisible:1b,Fixed:1b}} 1
+execute unless score timer_grace variable matches ..0 run give @p[tag=limegreen,limit=1] item_frame[custom_name='{"color":"#39ff14","italic": true,"text": "Lime Green Base"}',custom_model_data={strings:[limegreen]},entity_data={id:"item_frame",Item:{id:"item_frame",count:1,components:{"custom_model_data":{strings:[limegreen]}}},Fixed:1b,Invisible:1b,Silent:1b,Invulnerable:1b,Tags:["LimeGreenBase"]}] 1
 
 execute at @s run forceload remove ~-1 ~-1 ~1 ~1
 
