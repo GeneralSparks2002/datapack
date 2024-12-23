@@ -1,0 +1,1 @@
+give @p[limit=1,tag=admin] item_frame[custom_model_data={strings:["soff"]},entity_data={id:"minecraft:item_frame",Tags:["Summon"]}] 1

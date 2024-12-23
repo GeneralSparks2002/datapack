@@ -71,4 +71,4 @@ execute if entity @e[tag=YellowBase] run function game:sotf/bases/yellow/yellows
 
 
 
-execute as @e[tag=NPC.rotate] at @s if entity @e[type=minecraft:player,distance=..4] run teleport @s ~ ~ ~ facing entity @p feet
+#execute as @e[tag=NPC.rotate] at @s if entity @e[type=minecraft:player,distance=..3] run teleport @s ~ ~ ~ facing entity @p feet
