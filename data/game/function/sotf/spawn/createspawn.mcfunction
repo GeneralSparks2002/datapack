@@ -17,13 +17,15 @@ execute at @e[tag=Spawn] run summon armor_stand ~13 ~ ~-6 {Invisible:1b,CustomNa
 
 execute at @e[tag=Spawn] run forceload add ~-17 ~-17 ~17 ~17
 
-execute at @e[tag=Spawn] run function general_spark:sotf/spawn/mainisland/tempbedrock
+execute at @e[tag=Spawn] run function game:sotf/spawn/mainisland/tempbedrock
 
-execute at @e[tag=Spawn] run function general_spark:sotf/spawn/villagers/food_store
-execute at @e[tag=Spawn] run function general_spark:sotf/spawn/villagers/materials_store
-execute at @e[tag=Spawn] run function general_spark:sotf/spawn/villagers/potions_store
-execute at @e[tag=Spawn] run function general_spark:sotf/spawn/villagers/trade_store
+execute at @e[tag=Spawn] run function game:sotf/spawn/villagers/food_store
+execute at @e[tag=Spawn] run function game:sotf/spawn/villagers/materials_store
+execute at @e[tag=Spawn] run function game:sotf/spawn/villagers/potions_store
+execute at @e[tag=Spawn] run function game:sotf/spawn/villagers/trade_store
 
-execute at @e[tag=Spawn] run function general_spark:sotf/spawn/layers/timmedcreation
+execute at @e[tag=Spawn] run function game:sotf/spawn/layers/timmedcreation
+
+execute as @e[tag=Store] at @s run tp @s ~ ~ ~ facing entity @n[tag=Spawn] feet
 
 kill @s
